@@ -18,7 +18,7 @@ console.log(details['email']);  // another prosses
 console.log(details[extra]);
 console.log(details);
 details.email = "ak@gmail.com"
-//Object.freeze(details);  // (Importent) when we use freeze than this email is freeze not Change this value in future
+// Object.freeze(details);  // (Importent) when we use freeze than this email is freeze not Change this value in future
 details.email = "jeetgiri@gmail.com"
 console.log(details.email);
 
@@ -29,6 +29,6 @@ console.log(details.newObject());
 
 
 details.newObject2 =  function(){
-    console.log(`Hi this is Second Text By: ${this.name}` );
+    console.log(`Hi this is Second Text By: ${this.name}` );  // ${this.name} this thighs variable fetch
 }
 console.log(details.newObject2());
